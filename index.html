@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div id="error"></div>
+    <form id="form" actions="/" method="GET">
+      <div>
+        <label for="Phone Number"> Phone Number</label>
+        <input id="phone-number" name="phone-number" type="text" />
+      </div>
+      <div id="main-container">
+        <div id="mtn">
+          <img src="./images/mtnLogo.jpg" alt="an mtn logo" />
+        </div>
+
+        <div id="airtel">
+          <img src="./images/airtelLogo.jpg" alt="an airtel logo" />
+        </div>
+
+        <div id="glo">
+          <img src="./images/gloLogo.jpg" alt="a glo logo" />
+        </div>
+
+        <div id="mobile">
+          <img src="./images/9mobileLogo.jpg" alt="a 9mobile logo" />
+        </div>
+
+        <div id="result"></div>
+      </div>
+      <button type="button">Check Network</button>
+    </form>
+  </body>
+</html>
